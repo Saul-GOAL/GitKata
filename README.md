@@ -15,7 +15,12 @@ The first task is to clone this repo in a place where you have *write* access.
 
 You can either fork it on GitHub, or re-create it from scratch on GitLab for instance.
 
-## Task 1 - The cycle of collaboration
+## Task 1 - git log, git blame
+
+There's a typo in the file `numbers.txt` - find the name and email of the
+dev whois responsible for this !
+
+## Task 2 - The cycle of collaboration
 
 *Goal: learn how to share a branch across the same team*
 
@@ -44,9 +49,9 @@ Alice should end up with a log looking like this:
 +Alice
 ```
 
-## Task 2 - Two commits from one file
+## Task 3 - Two commits from one file
 
-*Goal: learn about the git index *
+*Goal: learn about the git index*
 
 This should be done by each member of the team.
 
@@ -54,7 +59,7 @@ This should be done by each member of the team.
 
 * Make two commits, each one containing a different line change.
 
-## Task 3 - Undoing changes
+## Task 4 - Undoing changes
 
 *Goal: learn about the various ways to undo changes in git*
 
@@ -66,7 +71,7 @@ This should be done by each member of the team.
 
 * Move the head of the branch to where it was before task 2 started branch
 
-## Task 4 - Happy merge
+## Task 5 - Happy merge
 
 *Goal: show how to merge in the trivial case*
 
@@ -78,11 +83,11 @@ This should be done by each member of the team.
   your to merge first
 * Bob: merge your branch and push the result
 
-## Task 4 bis - Happy  rebase
+## Task 5 bis - Happy  rebase
 
 Some as task 4, but use `rebase` so that there is no merge commit in the history.
 
-## Task 5 - Conflict resolution
+## Task 6 - Conflict resolution
 
 *Goal: learn about merging conflicting changes*
 
@@ -105,7 +110,7 @@ Some as task 4, but use `rebase` so that there is no merge commit in the history
 
 * Alice & Bob: resolve the conflict and push the resolution
 
-## Task 6 - Cherry-picking
+## Task 7 - Cherry-picking
 
 If you look at the repo, you will see that the 'release' branch does not contain
 the commit that bumps the year in the `COPYRIGHT` file (which is expected since it was
@@ -113,7 +118,7 @@ created in 2021).
 
 Use cherry-picking to fix the COPYRIGHT year on the `release` branch as well
 
-## Task 7 - Rebase
+## Task 8 - Rebase
 
 Make three commits that each add one line in a distinct, existing file.
 
@@ -132,7 +137,7 @@ Harder: make three commits that each add one line to the `index.html` file so yo
 Use rebase to put the commits in the order "one - three - two". You will
 have to solve conflicts during the rebase - have fun.
 
-## Task 8 - Code review
+## Task 9 - Code review
 
 * Alice: Fix style issues in 'index.html'
 * Alice: Make sure to include a typo in the code
